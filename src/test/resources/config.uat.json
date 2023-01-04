@@ -1,0 +1,18 @@
+{
+	"merchantId" : 1,
+	"identity": {
+		"privateKey": "0x3d9c672492d4f689b04db134f91e08bbdde2b86bf4448b48834125663429c42e",
+		"publicKey": "PUBLIC_KEY",
+		"address": "ADDRESS"
+	},
+	"serverConfig": {
+		"serverPort": 8080,
+		"messageExpiredInMs": 6000000,
+		"whiteListedAddresses": ["0xcbB792c1Be296433779146678E83a9C106cdA379", "0xd8D584ba78C6c7d02674764B2286A51C2495E192"]
+	},
+	"clientConfig": {
+		"instanceId": 1,
+		"baseURL": "https://api-access.walletmanager.freeddns.org/access",
+		"contentTypeJson": true
+	}
+}

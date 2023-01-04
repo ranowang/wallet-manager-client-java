@@ -1,0 +1,16 @@
+{
+    "merchantId": 1,
+    "identity" : {
+        "privateKey": "0x60259cbd7a49aeb8e7c4f274997f19e1c8023031e2bd1098d04028d56bb5fd4d"
+    },
+    "serverConfig": {
+        "serverPort": 8080,
+        "messageExpiredInMs": 60000,
+        "whiteListedAddresses": ["0x9D1CCb100247bA375fFeea162750e7FB0D43C957", "0x55eD3b16A77BbA3f1D64faEC075F7BF0CFFCfb7C"]
+    },
+    "clientConfig": {
+        "instanceId": 1,
+        "baseURL": "https://api-access.app.candyclubpay.com/access",
+        "contentTypeJson": true
+    }
+}
